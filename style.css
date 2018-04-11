@@ -1,0 +1,115 @@
+body{background-color: black;}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.portfolio-slideshow-wrapper {
+    position: relative;
+}
+.portfolio-slideshow-wrapper ul {
+        list-style: none;
+    }
+
+.portfolio-slideshow-wrapper li {
+        width: 360px;
+        height: 250px;
+        background: #dbbc23;
+        display: inline-block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+}
+ .items {
+            position: absolute;
+        }
+
+.pos1 {
+            z-index: 3;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+ .pos5 {
+            z-index: 2;
+            opacity: 0.3;
+            top: 0;
+            left: -600px;
+            right: 0;
+            margin: auto;
+            -webkit-transform: scale(0.75);
+            -moz-transform: scale(0.75);
+            transform: scale(0.75);
+        }
+
+ .pos4 {
+            z-index: 1;
+            top: 0;
+            left: -1000px;
+            right: 0;
+            margin: auto;
+            opacity: 0.05;
+            -webkit-transform: scale(0.5);
+            -moz-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+ .pos3 {
+            z-index: 1;
+            top: 0;
+            left: 800px;
+            right: 0;
+            margin: auto;
+            opacity: 0.05;
+            -webkit-transform: scale(0.5);
+            -moz-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+
+.pos2 {
+            z-index: 2;
+            opacity: 0.3;
+            top: 0;
+            left: 420px;
+            right: 0;
+            margin: auto;
+            -webkit-transform: scale(0.75);
+            -moz-transform: scale(0.75);
+            transform: scale(0.75);
+        }
+
+.portfolio-slideshow-wrapper p {
+            color: #281b08;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 80px;
+            text-align: center;
+        }
+    
+
+.portfolio-slideshow-wrapper span {
+        position: relative;
+        margin: 0 auto;
+        left: 272px;
+        top: 320px;
+    }
+
